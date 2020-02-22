@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    width: 90%;
+    height: 10hv;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, 
+.nav-links, 
+.cart {
+    display: flex;
+}
+.logo-container {
+    background: lightblue;
+    flex: 1;
+}
+
+nav {
+    background: rgb(189, 230, 173);
+    flex: 1;
+}
+.cart {
+    background: rgb(12, 188, 247);
+    flex: 1;
+}
