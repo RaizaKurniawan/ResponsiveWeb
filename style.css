@@ -15,21 +15,29 @@ header {
     align-items: center;
 }
 
-.logo-container, 
-.nav-links, 
-.cart {
+.logo-container, .nav-links,.cart {
     display: flex;
 }
 .logo-container {
-    background: lightblue;
     flex: 1;
 }
-
+.logo {
+    font-weight: 400;
+    margin: 5px;
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
 nav {
-    background: rgb(189, 230, 173);
     flex: 1;
+}
+.nav-link {
+    color: lightseagreen;
+    font-size: 18px;
+    text-decoration: none;
 }
 .cart {
-    background: rgb(12, 188, 247);
     flex: 1;
+    justify-content: flex-end;
 }
