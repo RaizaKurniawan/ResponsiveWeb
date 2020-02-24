@@ -15,7 +15,7 @@ header {
     align-items: center;
 }
 
-.logo-container, .nav-links,.cart {
+.logo-container,.nav-links,.cart {
     display: flex;
 }
 .logo-container {
@@ -40,7 +40,6 @@ nav {
 .cart {
     flex: 1;
     justify-content: flex-end;
-    image-resolution: inherit;
 }
 
 
