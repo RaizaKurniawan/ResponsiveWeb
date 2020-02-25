@@ -58,7 +58,7 @@ nav {
 }
 
 .intro-text h1 {
-    font-size: 44px;
+    font-size: 24px;
     font-weight: 500;
     background: linear-gradient(to right, #494964, #6f6f89);
     -webkit-background-clip: text;
@@ -66,7 +66,7 @@ nav {
 }
 .intro-text p{
     margin-top: 5px;
-    font-size: 22px;
+    font-size: 14px;
     color: #585772;
 }
 .cta {
@@ -125,4 +125,10 @@ nav {
     left: 20%;
     z-index: -1;
 }
-
+.laptop-select {
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 20%;
+}
